@@ -1,0 +1,306 @@
+html,
+body,
+ul,
+ol,
+li,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+div {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    font-size: 13px;
+}
+
+
+/* Header */
+.headerLine {
+    background-color: #26468f;
+    height: 16px;
+}
+
+.nav {
+    background-color: #ebebeb;
+    height: 55px;
+}
+
+.nav a {
+    background-color: #26468f;
+    color: rgb(224, 224, 224);
+    float: right;
+    width: 180px;
+    height: 20px;
+    border: none;
+    margin-top: 14px;
+    margin-right: 100px;
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 12px;
+    padding-top: 5px;
+    text-align: center;
+    border-radius: 5px;
+    box-shadow: 0.5px 1px grey;
+
+}
+
+.nav a:hover {
+    box-shadow: 1px 1.5px grey;
+}
+
+.header {
+    text-transform: uppercase;
+    color: #26468f;
+    position: absolute;
+    top: 35px;
+    left: 100px;
+}
+
+.header img {
+    width: 80px;
+    float: left;
+
+}
+
+.header h1 {
+    margin-top: 45px;
+    margin-left: 90px;
+    font-size: 13px;
+    color: blue;
+}
+
+.header span {
+    color: blue;
+    font-size: 20px;
+}
+
+/* Slider */
+.slider {
+    margin-top: 70px;
+    width: 100%;
+    position: relative;
+}
+
+.buttonSlider {
+    position: absolute;
+    right: 5%;
+    bottom: 20%;
+}
+
+.slider img {
+    width: 100%;
+}
+
+.slider button {
+    text-transform: uppercase;
+    background-color: #26468f;
+    border: blue;
+    color: white;
+    width: 150px;
+    height: 40px;
+    /* position: absolute;
+    top: 300px;
+    right: 50px; */
+    z-index: 30;
+    border-radius: 8px;
+    box-shadow: 2px 3px rgb(192, 192, 192);
+    cursor: pointer;
+}
+
+.slider button:hover {
+    box-shadow: 3px 4px rgb(192, 192, 192);
+}
+
+.slider button:active {
+    color: grey;
+    box-shadow: 3px 4px rgb(150, 150, 150);
+}
+
+/* Keunggulan */
+.isi {
+    width: 100%;
+}
+
+.icon {
+    width: 6%;
+}
+
+text {
+    width: 47%
+}
+
+.text1 {
+    text-align: right;
+}
+
+.text2 {
+    text-align: left;
+}
+
+
+.body {
+    text-align: center;
+}
+
+.body h1 {
+    margin-top: 20px;
+    margin-bottom: 30px;
+    font-size: 22px;
+}
+
+.body h1 span {
+    color: blue;
+}
+
+.tableRow {
+    height: 60px;
+}
+
+.body span {
+    font-weight: bold;
+}
+
+
+/* About */
+.about {
+    background: rgba(156, 215, 255, 0.2);
+    margin: 30px auto;
+}
+
+.about h1 {
+    padding-top: 35px;
+}
+
+.about p {
+    margin-bottom: 20px;
+    line-height: 20px;
+}
+
+.about button {
+    text-transform: uppercase;
+    background-color: #26468f;
+    border: blue;
+    color: white;
+    width: 250px;
+    height: 40px;
+    /* z-index: 30; */
+    border-radius: 8px;
+    box-shadow: 2px 3px rgb(192, 192, 192);
+    cursor: pointer;
+    margin-bottom: 35px;
+}
+
+.about button:hover {
+    box-shadow: 3px 4px rgb(192, 192, 192);
+}
+
+.about button:active {
+    color: grey;
+    box-shadow: 3px 4px rgb(150, 150, 150);
+}
+
+/* Form Registrasi */
+.form {
+    margin: 25px auto;
+    font-size: 14px;
+    text-align: left;
+
+
+}
+
+.form label {
+    padding-right: 20px;
+}
+
+.form input {
+    width: 400px;
+}
+
+.date input {
+    width: 370px;
+    margin-right: 10px;
+}
+
+.date img {
+    position: absolute;
+}
+
+.label {
+    text-align: right;
+    font-weight: bold;
+}
+
+.row {
+    line-height: 30px;
+}
+
+.checkbox input {
+    text-align: left;
+    width: 10px;
+}
+
+.syarat a {
+    font-style: italic;
+    color: blue;
+    font-size: 11px;
+}
+
+.syaratCheck input,
+label {
+    text-decoration: none;
+    color: black;
+    font-size: 11px;
+    text-align: left;
+    width: 10px;
+    margin-top: 10px;
+    font-weight: 700px;
+}
+
+.formButton button {
+    background-color: #26468f;
+    border: blue;
+    color: white;
+    width: 150px;
+    height: 30px;
+    border-radius: 5px;
+    box-shadow: 2px 3px rgb(192, 192, 192);
+    cursor: pointer;
+    margin: 7px 0px;
+}
+
+.ketFrom p {
+    font-size: 10px;
+    color: grey;
+    line-height: 14px;
+}
+
+
+/* footer */
+.stepRegister {
+    background: rgba(194, 194, 194, 0.2);
+    padding: 10px 0px 30px;
+}
+
+.stepRegister h1 {
+    font-weight: 50px;
+    font-size: 18px;
+}
+
+.stepRegister img {
+    width: 650px;
+}
+
+.footer {
+    background-color: #26468f;
+    color: white;
+    width: 100%;
+}
+
+.titleFooter h4 {
+    font-weight: normal;
+    padding: 12px;
+}
