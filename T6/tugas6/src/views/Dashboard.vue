@@ -1,7 +1,7 @@
 <template class="container-fluid">
 <div>
   <nav class="navbar">
-      <a class="navbar-brand"><h2> Daftar Pengguna</h2></a>
+      <a class="navbar-brand" href="#"><h2> Daftar Pengguna</h2></a>
         <button class="btn btn-primary">Buat pengguna</button>
   </nav>
 
@@ -31,10 +31,10 @@
     </tr>
     <tr>
       <th scope="row">2</th>
-      <td>Bambang Susanto</td>
-      <td>Bambang23@gmail.com</td>
-      <td>Male</td>
-      <td>Active</td>
+      <td>Susi Melati</td>
+      <td>susimelati@yahoo.com</td>
+      <td>Female</td>
+      <td>InActive</td>
       <td>
         <button type="button" class="btn btn-info btn-sm mx-1">Info</button> 
         <button type="button" class="btn btn-warning btn-sm mx-1">Warning</button>
@@ -43,10 +43,10 @@
     </tr>
     <tr>
       <th scope="row">3</th>
-      <td>Bambang Susanto</td>
-      <td>Bambang23@gmail.com</td>
+      <td>Sumanto Hasan</td>
+      <td>sumanto66@gmail.com</td>
       <td>Male</td>
-      <td>Active</td>
+      <td>InActive</td>
       <td>
         <button type="button" class="btn btn-info btn-sm mx-1">Info</button> 
         <button type="button" class="btn btn-warning btn-sm mx-1">Warning</button>
@@ -55,9 +55,9 @@
     </tr>
     <tr>
       <th scope="row">4</th>
-      <td>Bambang Susanto</td>
-      <td>Bambang23@gmail.com</td>
-      <td>Male</td>
+      <td>Siti Fatimah</td>
+      <td>Fatimah1923@yahoo.co.id</td>
+      <td>Female</td>
       <td>Active</td>
       <td>
         <button type="button" class="btn btn-info btn-sm mx-1">Info</button> 
@@ -67,8 +67,8 @@
     </tr>
     <tr>
       <th scope="row">5</th>
-      <td>Bambang Susanto</td>
-      <td>Bambang23@gmail.com</td>
+      <td>Akbar Haji</td>
+      <td>hajiakbar@megagiga.com</td>
       <td>Male</td>
       <td>Active</td>
       <td>
@@ -79,10 +79,10 @@
     </tr>
     <tr>
       <th scope="row">6</th>
-      <td>Bambang Susanto</td>
-      <td>Bambang23@gmail.com</td>
-      <td>Male</td>
-      <td>Active</td>
+      <td>Jamila Nurleha</td>
+      <td>Nurleha@gmail.com</td>
+      <td>Female</td>
+      <td>InActive</td>
       <td>
         <button type="button" class="btn btn-info btn-sm mx-1">Info</button> 
         <button type="button" class="btn btn-warning btn-sm mx-1">Warning</button>
@@ -91,9 +91,9 @@
     </tr>
     <tr>
       <th scope="row">7</th>
-      <td>Bambang Susanto</td>
-      <td>Bambang23@gmail.com</td>
-      <td>Male</td>
+      <td>Niken Saputri</td>
+      <td>aputrican@mail.com</td>
+      <td>Female</td>
       <td>Active</td>
       <td>
         <button type="button" class="btn btn-info btn-sm mx-1">Info</button> 
@@ -103,8 +103,8 @@
     </tr>
     <tr>
       <th scope="row">8</th>
-      <td>Bambang Susanto</td>
-      <td>Bambang23@gmail.com</td>
+      <td>Topik Hidayat</td>
+      <td>dayat@amikom.ac.id</td>
       <td>Male</td>
       <td>Active</td>
       <td>
