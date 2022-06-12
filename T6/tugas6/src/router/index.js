@@ -15,6 +15,16 @@ const routes = [
     path: '/dashboard',
     name: 'dashboard',
     component: () => import('../views/Dashboard.vue')
+  },
+  {
+    path: '/dashboard/create-user',
+    name: 'createUser',
+    component: () => import('../components/CreateUserCom')
+  },
+  {
+    path: '/dashboard/update-user/:id',
+    name: 'updateUserCom',
+    component: () => import('../components/UpdateUserCom')
   }
 
 ]
