@@ -25,6 +25,11 @@ const routes = [
     path: '/dashboard/update-user/:id',
     name: 'updateUserCom',
     component: () => import('../components/UpdateUserCom')
+  },
+  {
+    path: '/dashboard/view-user/:id',
+    name: 'viewUserCom',
+    component: () => import('../components/ViewUserCom')
   }
 
 ]

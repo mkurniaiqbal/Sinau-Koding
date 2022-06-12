@@ -27,9 +27,11 @@
         <td>{{item.gender}}</td>
         <td>{{item.status}}</td>
         <td>
-          <button type="button" class="btn btn-info btn-sm mx-3">View</button>
+          <router-link :to="{name:'viewUserCom', params: {id:item.id}}" class="navbar-brand">
+            <button type="button" class="btn btn-info btn-sm">View</button>
+          </router-link>
           <router-link :to="{name:'updateUserCom', params: {id:item.id}}" class="navbar-brand">
-          <button type="button" class="btn btn-warning btn-sm">Update</button>
+            <button type="button" class="btn btn-warning btn-sm">Update</button>
           </router-link>
           <button type="button" class="btn btn-danger btn-sm" @click="onDelete(item.id, item.name)">Delete</button>
         </td>

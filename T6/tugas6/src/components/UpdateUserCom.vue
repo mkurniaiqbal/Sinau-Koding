@@ -88,8 +88,6 @@ import axios from 'axios'
         // this.form.name = result.name
         // this.form.gender = result.gender
         // this.form.status = result.status
-
-        // console.log(this.items);
       },
       async onUpdate(event) {
         event.preventDefault()
