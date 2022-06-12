@@ -1,7 +1,7 @@
 <template>
   <div class="container">
     <div class="my-4">
-      <h4>Update Pengguna</h4>
+      <h4 class="my-auto">Update Pengguna</h4>
     </div>
     <b-form @submit="onUpdate" v-if="show" class="border p-4">
 

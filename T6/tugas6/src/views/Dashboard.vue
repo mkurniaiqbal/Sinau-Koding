@@ -1,43 +1,41 @@
 <template>
 <div class="container mt-2">
   <div class="d-flex justify-content-between mb-3">
-    <h2>Daftar Pengguna</h2>
+    <h4 class="my-auto">Daftar Pengguna</h4>
     <router-link to="/dashboard/create-user" class="navbar-brand">
       <button class="btn btn-primary btn-sm" type="submit">
         Buat Pengguna
       </button>
     </router-link>
   </div>
-<table class="table border text-center">
-  <thead class="table-primary">
-    <tr>
-      <th scope="col">No</th>
-      <th scope="col">Nama</th>
-      <th scope="col">Email</th>
-      <th scope="col">Gender</th>
-      <th scope="col">Status</th>
-      <th scope="col">Actions</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr v-for="(item, index) in items" v-bind:key="item.id">
-      <th scope="row">{{index+1}}</th>
-      <td>{{item.name}}</td>
-      <td>{{item.email}}</td>
-      <td>{{item.gender}}</td>
-      <td>{{item.status}}</td>
-      <td>
-        <button type="button" class="btn btn-info btn-sm mx-3">View</button>
-        <router-link :to="{name:'updateUserCom', params: {id:item.id}}" class="navbar-brand">
-        <button type="button" class="btn btn-warning btn-sm">Update</button>
-        </router-link>
-        <button type="button" class="btn btn-danger btn-sm" @click="onDelete(item.id, item.name)">Delete</button>
-      </td>
-    </tr>
-  </tbody>
-</table>
-
-<!-- <CreateUserCom/> -->
+  <table class="table border text-center" >
+    <thead class="table-primary">
+      <tr>
+        <th scope="col">No</th>
+        <th scope="col">Nama</th>
+        <th scope="col">Email</th>
+        <th scope="col">Gender</th>
+        <th scope="col">Status</th>
+        <th scope="col">Actions</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr v-for="(item, index) in items" v-bind:key="item.id" >
+        <th scope="row">{{index+1}}</th>
+        <td>{{item.name}}</td>
+        <td>{{item.email}}</td>
+        <td>{{item.gender}}</td>
+        <td>{{item.status}}</td>
+        <td>
+          <button type="button" class="btn btn-info btn-sm mx-3">View</button>
+          <router-link :to="{name:'updateUserCom', params: {id:item.id}}" class="navbar-brand">
+          <button type="button" class="btn btn-warning btn-sm">Update</button>
+          </router-link>
+          <button type="button" class="btn btn-danger btn-sm" @click="onDelete(item.id, item.name)">Delete</button>
+        </td>
+      </tr>
+    </tbody>
+  </table>
 </div>
 </template>
 
@@ -55,7 +53,6 @@ export default {
     return {
       items: []
     }
-    
   },
   mounted(){
     this.getData();
